@@ -1,0 +1,30 @@
+#gridContainer {
+  display: inline-grid;
+  border-radius: 15px;
+  grid-template-rows: auto auto auto auto auto;
+  grid-gap: 10px;
+  background: radial-gradient( #f4f4f47a,#6E6060);
+  padding: 10px;
+}
+#gridContainer > div {
+  font-family: 'Times New Roman', Times, serif;
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  background: radial-gradient(#f6f6d3, #d9d4cf);
+  border-radius: 10px;
+  font-size: 30px;
+}
+
+h5{
+    display: inline;
+    padding-right: 15px;
+}
+p {
+  display: inline;
+  padding-right: 15px;
+}
+#item5 { grid-area: 5 / 1 / span 5 / span 5;
+  width: 100%;
+} 
+
